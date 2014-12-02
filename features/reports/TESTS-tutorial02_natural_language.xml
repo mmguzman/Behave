@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite errors="0" failures="0" name="tutorial02_natural_language.Fight or Flight (Natural Language, tutorial02)" skipped="0" tests="2" time="0.0"><testcase classname="tutorial02_natural_language.Fight or Flight (Natural Language, tutorial02)" name="Weaker opponent" status="passed" time="0.0"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: Weaker opponent
+    Given the ninja has a third level black-belt ... passed in 0.000s
+    When attacked by a samurai ... passed in 0.000s
+    Then the ninja should engage the opponent ... passed in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase><testcase classname="tutorial02_natural_language.Fight or Flight (Natural Language, tutorial02)" name="Stronger opponent" status="passed" time="0.0"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: Stronger opponent
+    Given the ninja has a third level black-belt ... passed in 0.000s
+    When attacked by Chuck Norris ... passed in 0.000s
+    Then the ninja should run for his life ... passed in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase></testsuite>

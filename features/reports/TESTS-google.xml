@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite errors="0" failures="0" name="google.testing google" skipped="0" tests="1" time="17.063"><testcase classname="google.testing google" name="visit google and check" status="passed" time="17.063"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: visit google and check
+    When we visit google ... passed in 15.901s
+    Then it should have a title "Google" ... passed in 1.162s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase></testsuite>
